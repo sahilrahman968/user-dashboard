@@ -1,0 +1,130 @@
+.pagination{
+ display:flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.pagination-button{
+ height: 25px;
+ width: 25px;
+ border: 0.5px solid white;
+ /* border-radius: 50%; */
+ background-color: black;
+ color: white;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ cursor: pointer;
+}
+
+.active-pagination-button{
+ height: 25px;
+ width: 25px;
+ border: 0.5px solid black;
+ /* border-radius: 50%; */
+ background-color: white;
+ color: black;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ cursor: pointer;
+}
+
+.table{
+ min-width: 80vw;
+ margin: 20px auto;
+}
+
+.td-checkbox{
+ min-width: 2vw;
+ background-color: teal;
+ color: #fff;
+}
+.table th{
+ background-color: black;
+}
+
+.td-name{
+ min-width: 20vw;
+ text-align: left;
+ background-color: teal;
+ color: #fff;
+}
+
+.td-email{
+ min-width: 30vw;
+ text-align: left;
+ background-color: teal;
+ color: #fff;
+}
+
+.td-action{
+ min-width: 14vw;
+ text-align: center;
+ background-color: teal;
+ color: #fff;
+}
+
+.td-role{
+ min-width: 14vw;
+ text-align: left;
+ background-color: teal;
+ color: #fff;
+}
+
+.selected-row td{
+ background-color: grey;
+ color: white;
+}
+
+.icon{
+ width: 20px;
+ height: 20px;
+ cursor: pointer;
+}
+
+.table-header{
+ background-color: black;
+ color: white;
+}
+
+.ant-checkbox{
+ cursor: pointer;
+}
+
+.pagination-button-disabled{
+ height: 25px;
+ width: 25px;
+ border: 0.5px solid white;
+ /* border-radius: 50%; */
+ background-color: grey;
+ color: white;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ cursor: not-allowed;
+}
+
+.delete-selected{
+ position: absolute; 
+ left:0;
+ top:0;
+ margin-left:20px;
+ background-color: red;
+ color: white;
+}
+
+.delete-selected-disabled{
+ background-color: grey;
+ color: black;
+}
+
+button{
+ border-radius: 4px;
+ cursor: pointer;
+}
+
+.input-box{
+ width: 60vw;
+ height: 20px;
+}
